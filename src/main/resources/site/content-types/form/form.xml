@@ -45,8 +45,8 @@
                               <label>Rich text label</label>
                               <occurrences minimum="0" maximum="1"/>
                               <config>
-                                  <exclude>*</exclude>
-                                  <include>Bold Italic Underline | Link Unlink | SpecialChar</include>
+                                  <exclude>Macro</exclude>
+                                  <include>Font FontSize TextColor</include>
                               </config>
                               <help-text>Text that will override the label, for instance if you need to include a link to terms&amp;conditions. IMPORTANT: Try to keep this short, as screen readers will have to recite the whole text to the user!</help-text>
                           </input>
